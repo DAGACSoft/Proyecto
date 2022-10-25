@@ -1,0 +1,23 @@
+div{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.box_Title{
+    text-align: center;
+    border-color: black;
+    width: 32.8%;
+    height: 10%;
+    float: left;
+    background-color: wheat;
+}
+
+.box_Data{
+    text-align: center;
+    border-color: black;
+    width: 32.8%;
+    height: 10%;
+    float: left;
+}
