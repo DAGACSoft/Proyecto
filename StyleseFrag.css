@@ -1,23 +1,31 @@
 div{
-    background-color: antiquewhite;
+    background-color: white;
 }
 h1{
     text-align: center;
     color: red;
 }
+
 .box_Title{
     text-align: center;
     border-color: black;
-    width: 32.8%;
-    height: 10%;
+    width: 33.299%;
+    height: 100%;
     float: left;
-    background-color: wheat;
+    background-color: gray;
 }
 
-.box_Data{
+.box_VentaMes{
     text-align: center;
     border-color: black;
-    width: 32.8%;
-    height: 10%;
+    width: 33.299%;
+    height: 90px;
     float: left;
+    
+}
+.Sub_Title{
+    text-align: center;
+    background-color: blanchedalmond;
+    color: black;
+    
 }
