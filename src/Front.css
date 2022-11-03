@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+  
+body {
+    font-family: Monaco, 'Roboto', 'Oxygen';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.TiendaDAGAC {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    font-family: 'Arial Black';  
+}
+  
+.header {
+    grid-column: 1 / -1;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.add-Producto {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    background-color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;  
+}
+
+input[type=file] {
+    width: 100%;
+    margin: 12px 0px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=number] {
+    width: 100%;
+    margin: 12px 0px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+input[type=text] {
+    
+    width: 100%;
+    height: 30px;
+    margin: 12px 0px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+      
+}
+  
+input[type=text]:focus {
+    background-color: lightblue;
+    border: 1px solid #000;
+}
+  
+.list-Producto {
+    grid-column: 2/4;
+    grid-row: 2 / 4;
+    padding: 10px;
+    background-color:gray;
+}
+  
+li {    
+    padding: 10px;
+    background-color: #f5f3f1;
+    border: 1px solid #000;  
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    margin: 2px;
+}
+  
+.search-contact {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: #4968ff;
+}
+
+.edit-contact {
+    grid-column: 2 / 3;
+    grid-row: 4;
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: #feffca;
+}
+  
+.delete-contact {
+    grid-column: 3 / 4;
+    grid-row: 4;
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: #ff6464;
+}
+div{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+
+form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
